@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<meta name="description" content="快食・快眠・快便・快適・・・。脳疲労解消で心身の健康管理">
+<meta name="keywords" content="健康,更年期障害,肥満,生活習慣病,ストレス,疲労,うつ,子宮癌,乳がん,自律神経失調症,月経困難症,子宮内膜症,生理不順,排卵障害,卵巣機能不全,避妊,不妊症,女性の健康,脳疲労,五感療法,アロマセラピー,アートセラピー,サウンドセラピー,快食,快便,快眠,メンタル,健康外来,禁煙">
+<title>日本箸道協会</title>
+
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/common.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<!-- ヘッダー開始 -->
+	<header id="header">
+		<div class="wrap">
+			<h1 class="home"><a href="index.html"><img src="images/home_logo.png" width="160" height="375" alt="健康外来サロン" /></a></h1>
+			<nav id="navi">
+				<ul>
+					<li>
+						<a href="health/index.html">健康外来サロンとは？</a>
+					</li>
+					
+					<li>
+						<a href="check/index.html">チェックテスト</a>
+					</li>
+					<li>
+						<a href="mufuan.html">無風庵</a>
+					</li>
+					<li>
+						<a href="personal/index.html">サロンメニュー</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- ヘッダー終了 -->
+	<!-- ページタイトル開始 -->
+	<div id="page_title">
+		
+	</div>
+	<!-- ページタイトル終了 -->
+	<!-- コンテンツ開始 -->
+	<div id="content" class="clearfix">
+		<!-- メインコンテンツ開始 -->
+		<article id="main">
+			
+			<section class="post orgnizer">
+				<header class="title">
+					<h2>NPO法人　日本箸道協会</h2>
+				</header>
+				<div class="concept_box">
+					<div class="desc">
+						<figure class="image txt_center">
+							<img src="images/hashidou_title.png" alt="箸道タイトル" width="100%">
+						</figure>
+					</div>
+				</div>
+				
+				<div class="concept_box">
+					<h4 class="tit02 font24">箸道とは</h4>
+					<div class="desc">
+						<p>食や人に対する感謝の心を通して人としての品格を追求すること</p>
+					</div>
+				</div>
+				<div class="concept_box">
+					<h4 class="tit02 font24">箸道の考えを一緒に伝えていきませんか</h4>
+					<div class="desc">
+						<p>主に、日本の食文化に興味を持ち、なんとかその文化を守り伝え、さらに新たな食文化を創造していきたいという食への関心の高い個人及び法人の方、一緒に活動していきませんか！</p>
+					</div>
+				</div>
+				<div class="concept_box">
+					<h4 class="tit02 font24">構成メンバー</h4>
+					<div class="desc">
+						<table class="tb01 orgnizer-table2">
+							<tbody>
+								<tr>
+									<td colspan="3" class="bold"></td>
+								</tr>
+								<tr>
+									<td class="bold green2">理事長</td>
+									<td>横倉　恒雄　</td>
+									<td class="txt_left">医療法人社団健人会横倉クリニック　健康外来サロン理事長</td>
+								</tr>
+								<tr>
+									<td class="bold green2">副理事長</td>
+									<td>牟田　実<br/>伊藤　朝子</td>
+									<td class="txt_left">銀座木挽町料亭「朝川」女将）<br/>食と生活ラボ代表</td>
+								</tr>
+								<tr>
+									<td class="bold green2">理事</td>
+									<td>佐藤　有紀子
+										<br/>加納　有美子
+										<br/>木村　任成　</td>
+									<td class="txt_left">マネジメントコンサルタント<br/>栄養士<br/>クリエイティブ・コミュニケーション・プロデューサー</td>
+								</tr>
+								<tr>
+									<td class="bold green2">監事</td>
+									<td colspan="2">女性と仕事の未来館 ホール
+										東京都港区芝5-35-3<br/>TEL：03-5444-4151　FAX：03-5444-4152</td>
+								</tr>
+								<tr>
+									<td class="bold green2">交通案内</td>
+									<td>小川　智由<br/>岩崎　達夫　</td>
+									<td class="txt_left">明治大学商学部教授<br/>アダマス代表</td>
+								</tr>
+								<tr>
+									<td class="bold green2">参加費</td>
+									<td colspan="2">3,000円</td>
+								</tr>
+								<tr>
+									<td class="bold green2">世話人会</td>
+									<td class="txt_left">天野　洋一
+										<br/>伊集院　憲弘
+										<br/>高柳　和江
+										<br/>中林　茂雄
+										<br/>吉田　文司
+										<br/>米田　幸正
+									</td>
+									<td colspan="3" class="txt_left">群馬日産自動車株式会社　取締役社長
+										<br/>Office N&I　代表取締役
+										<br/>医学博士　東京医療保健大学教授
+										<br/>箸久店主
+										<br>文楽人形遣い
+										<br/>スギホールディングス株式会社　代表取締役社長
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3" class="txt_left table-bottom-none">NPO法人 日本箸道協会の詳細については、こちらもご覧ください。<br/><a href="http://www.hashido.net/index.html" class="opa">http://www.hashido.net/index.html</a></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+				<div class="concept_box">
+					<h4  class="tit02 font24">これまでの活動の紹介</h4>
+					<div class="desc">
+						<ul>
+							<li>エグゼクティブ向け箸道会食術講座（料亭銀座朝川）</li>
+							<li>ジュニア箸技能検定</li>
+							<li>箸の日特集「鮎の骨抜き」（NHKおはようニッポン 08年8月）</li>
+							<li>箸道協会発会式イベント（08年8月）</li>
+							<li>マイ箸in前橋親子箸つくり教室（後援：前橋市、同市教育委員会、商工会議所、前橋市青年会議所）</li>
+							<li>ビジネスマン向け箸道会食術講座（法政大学エクステンションカレッジ）</li>
+							<li>企業向け研修（新人研修、マナー研修、会食講座、接待講座）</li>
+							<li>料亭「なだ万」様とのジョイント講座</li>
+							<li>料亭「車屋」様とのジョイント講座など</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="concept_box">
+					<h4 class="tit02 font24">お申し込み・問い合わせ先</h4>
+					<div class="desc">
+						<table class="tb01 orgnizer-table2">
+							<tbody>
+								<tr>
+									<td class="bold">問い合わせ先</td>
+									<td><span class="link01"><a class="opa bold" href="mailto:info@shoku-labo.com">こちらから</a></span><br/>担当：佐藤　有紀子 （さとう　ゆきこ）まで</td>
+								</tr>
+								<tr>
+									<td class="bold">NPO法人 日本箸道協会</td>
+									<td>Tel：03-5749-5013　/　Fax：03-3785-0547<br/>お問い合わせはできるだけ<span class="bold">メール</span>でお願い致します。</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2" class="txt_left table-bottom-none"><span class="note">お申込に際していただいた個人情報は規定に従い管理いたします</span></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</section>
+		</article>
+		<!-- メインコンテンツ終了 -->
+		<!-- サイドコンテンツ開始 -->
+		<aside id="side">
+			<nav class="side_menu">
+				<ul>
+					<li><a href="#">NPO法人 日本箸道協会</a></li>
+					<li><a href="organizer.html">生活習慣美容研究会事務局</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<!-- サイドコンテンツ終了 -->
+
+	</div>
+	<!-- コンテンツ終了 -->
+	<!-- フッター開始 -->
+	<footer id="footer">
+		<div class="wrap">
+			<div class="info">
+				<div class="logo"><a href="index.html"><img src="images/footer_logo.png" width="258" height="53" alt="健康外来サロン" /></a></div>
+				<p class="address">〒108-0014 東京都港区芝5-13-13 サダカビル3F</p>
+			</div>
+			<nav class="link">
+				<div class="box01">
+					<ul>
+						<li><a href="health/index.html">健康外来サロンとは？</a></li>
+						<li><a href="map.html">地図</a></li>
+						<li><a href="media.html">掲載メディア</a></li>
+					</ul>
+				</div>
+				<div class="box02">
+					<ul>
+						<li><a href="check/index.html">チェックテスト</a></li>
+						<li><a href="partner.html">関連の企業・団体</a></li>
+						<li><a href="sitemap.html">サイトマップ</a></li>
+					</ul>
+				</div>
+				<div class="box03">
+					<ul>
+						<li><a href="personal/index.html">サロンメニュー</a></li>
+						
+						<li><a href="privacy.html">プライバシーポリシー</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<p class="copyright">Copyright (C) 2018 Yokokura Clinic. All Rights Reserved. </p>
+		<div id="pagetop"><a class="opa" href="#wrapper"><img src="images/pagetop.png" width="69" height="70" alt="page top" /></a></div>
+	</footer>
+	<!-- フッター終了 -->
+</div>
+
+</body>
+</html>

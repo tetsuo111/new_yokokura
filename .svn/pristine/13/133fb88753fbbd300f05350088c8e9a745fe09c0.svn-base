@@ -1,0 +1,406 @@
+/*************************
+*共通
+**************************/
+
+/*** 色追加 ***/
+.grey { color: #999 }
+.green2{ color: #015f4f }
+.green3{ color: #2f866f }
+
+/*** リストの背景削除 ***/
+.post ul.bg-none li{ background: none }
+
+/***ブロック化 ***/
+.is-block{ display: block }
+
+/***中央寄せ ***/
+.is-center{ margin: 0 auto }
+
+/***テーブル上下中央寄せ ***/
+.post table.tb02 tr th.is-table-text-center,
+.post table.tb02 tr td.is-table-text-center,
+.post table.tb01 tr th.is-table-text-center,
+.post table.tb01 tr td.is-table-text-center{
+	vertical-align: middle;
+}
+
+/*** border-bottom削除 ***/
+.post table.tb01 th.table-bottom-none,
+.post table.tb01 td.table-bottom-none,
+.post table.tb02 th.table-bottom-none,
+.post table.tb02 td.table-bottom-none{
+	border-bottom: none;
+}
+
+/*** border-right削除 ***/
+.post table.tb01 th.table-right-none,
+.post table.tb01 td.table-right-none,
+.post table.tb02 th.table-right-none,
+.post table.tb02 td.table-right-none{
+	border-right: none;
+}
+
+/*** border-right付与 ***/
+.post table.tb01 th.table-bottom,
+.post table.tb01 td.table-bottom,
+.post table.tb02 th.table-bottom,
+.post table.tb02 td.table-bottom{
+	border-bottom: 2px solid #2f866f;
+}
+
+.post table.tb01 th.table-right,
+.post table.tb02 th.table-right,
+.post table.tb01 td.table-right,
+.post table.tb02 td.table-right{
+	border-right: 2px solid #2f866f;
+}
+
+#main.post-main{
+	text-align: center;
+	float: none;
+	position: relative;
+}
+
+#main.post-main.is-center{
+	display: block;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+#main.post-main .post .tit03{
+	text-align: center;
+}
+
+/*** ラジオボタンデフォルトを使用 ***/
+#main.post-main input[type="radio"]{
+	-webkit-appearance: radio;
+	margin-right: 1.5em;
+}
+
+/*post配下のh2タグにmargin-bottomを合わせる*/
+.concept_box h2.is-adjust-margin,
+.event_box h2.is-adjust-margin,
+.news_box h2.is-adjust-margin{
+	margin-bottom: 52px;
+}
+
+/*** 以下ボタンシリーズ ***/
+.base_btn{
+	display: inline-block;
+	padding: 5px 30px 5px 20px;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+	line-height: 1.3em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.base_btn:hover{
+	opacity: 0.6;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-1{
+	background: url("../images/arrow_01.png");
+	background-position: center right 15px;
+	background-repeat: no-repeat;
+	border: 2px solid #d3d8db;
+	color: #211f1f;
+}
+
+.btn-2{
+	background: url(../images/arrow_02.png);
+	background-position: center right 15px;
+	background-repeat: no-repeat;
+	background-color: #2f866f;
+	border: 2px solid #d3d8db;
+	color: white;
+}
+
+.btn-3{
+	background: url("../images/arrow_07.png");
+	background-position: center right 15px;
+	background-repeat: no-repeat;
+	border: 2px solid #2f856f;
+	color: #2f856f;
+}
+
+.btn-small { width: 120px }
+.btn-medium{ width: 200px }
+.btn-large { width: 250px }
+
+/*** セレクトタグ調整 ***/
+select.txt_w120 {
+	-webkit-appearance: menulist-button;
+	padding: 0 10px;
+	width: 120px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	background: #f8f8f8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*************************
+*メニュー
+**************************/
+
+/***以下応急処置 デザインが上がってきたら削除****/
+.menu_box li{
+	margin-right: 10px;
+	padding: 0;
+	width: 160px;
+}
+
+.menu_box li img{
+	width: 100%;
+}
+
+.menu_box li:nth-child(3) a img{
+	margin-bottom: 22px;
+}
+
+.menu_box li:nth-child(4) a img{
+	margin-bottom: 26px;
+}
+
+.menu_box li a .tit{
+	font-size: 13px;
+}
+
+#main_image img{
+	padding-top: 33px;
+}
+
+/*************************
+*健康外来サロン
+**************************/
+
+/*************************
+*チェックテスト(check-)
+**************************/
+
+.tb01.checktest-table td:nth-child(1),
+.tb01.checktest-table td:nth-child(n + 3){
+	width: 10%;
+}
+
+.tb01.checktest-table td:nth-child(2){
+	width: 60%;
+	text-align: left;
+}
+
+.tb01.checkresult-table td:nth-child(2){
+	width: 60%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.tb01.checkresult-table tfoot td{
+	border-bottom: none;
+	text-align: left;
+}
+
+/*************************
+*サロンメニュー
+**************************/
+
+.tea-profile{
+	position: relative;
+}
+
+.tea-profile-image {
+	margin-right: 20px;
+}
+
+.tea-profile-image p{
+	position: absolute;
+	right: 0;
+	bottom: -150px;
+}
+
+.tb02.tea-table td{
+	width: 80%;
+}
+
+/*************************
+*お問い合わせ(inquiry-)
+**************************/
+
+.tb01.inquiry-table td:nth-child(2){
+	padding-left: 20px;
+	text-align: left;
+	width: 80%;
+}
+
+/*************************
+*サイトマップ(sitemap-)
+**************************/
+
+.post .sitemap-box{
+	text-align: left;
+	width: 48%;
+}
+
+/*************************
+*掲載メディア(media)
+**************************/
+
+.post .media table tbody tr th{
+	width: 11%;
+}
+
+.post .media table tbody tr td:nth-child(2),
+.post .media table tbody tr td:nth-child(3){
+	width: 40%;
+}
+
+/*************************
+*プライバシーポリシー
+**************************/
+
+.privacy .privacy-box1 li{
+	margin-top: 20px;
+}
+
+.post .privacy .privacy-box2 ol:nth-child(1){
+	margin-left: 20px;
+}
+
+/*************************
+*ポップアップ(popupimage)
+**************************/
+
+.header_popupimage .wrap h1{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px;
+	color: #015f4f;
+}
+
+.concept_box.concept_popupimage img{
+	position: relative;
+	right: 120px;
+}
+
+.side_poupimage{
+	position: relative;
+}
+
+.side_popupimage img{
+	position: absolute;
+	left: 0;
+}
+
+.nikkei_section_link {
+	color: #FF0000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.nikkei_section_title {
+	color: #004a00;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 2rem;
+}
+
+.nikkei_section_img {
+	vertical-align: top;
+	width: 330px;
+	height: 380px;
+}
+
+.nikkei_section_text {
+	font-size: 12px;
+	line-height: 21px;
+}
+
+.nikkei_top_link {
+	color: #FF0000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+/*************************
+*サイドコンテンツ追加分
+**************************/
+
+.side_add {
+	text-align: center;
+	padding: 10px;
+}
+
+/*************************
+*プロフィール
+**************************/
+
+.tb01.profile-table p,
+.tb02.profile-table2{
+	text-align: left;
+}
+
+.tb02.profile-table2 td:nth-child(2){
+	width: 80%;
+}
+
+/*************************
+*生活習慣美容研究会及び日本箸道協会
+**************************/
+
+.post table.tb02.orgnizer-table1 tr th,
+.post table.tb01.orgnizer-table2 tr td:nth-child(1){
+	width: 10%;
+}
+
+.post table.tb02.orgnizer-table1 tr td:nth-child(2){
+	width: 40%;
+}
+
+.post table.tb01 tr td.is-width-half,
+.post table.tb02 tr td.is-width-half{
+	width: 50%;
+}
+
+.post table.tb01.orgnizer-table2 tr td:nth-child(2),
+.post table.tb01.orgnizer-table3 tr th,
+.post table.tb01.orgnizer-table3 tr td{
+	text-align: left;
+}
+
+.post table.orgnizer-table3{
+	margin-bottom: 20px;
+}
+
+/*************************
+*関連企業
+**************************/
+
+.post table.tb01.partner-table tr td:nth-child(2){
+	width: 30%;
+	text-align: left;
+}
+
+/*************************
+*イベント詳細
+**************************/
+.event_box.is-detail dl dt,
+.event_box.is-detail dl dd{
+	text-align: left
+}
